@@ -2,7 +2,18 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'JungoJingle : Jungle Go to the Jingle of Lingo';
+
+$this->registerMetaTag([
+    'name' => 'description',
+    'content' => 'Come and learn with movement and music and fun. Official website for JungoJingle where little ones learn a new language.',
+]);
+$this->registerMetaTag([
+    'name' => 'keywords',
+    'content' => 'JungoJingle, Jungo, Jingle, Kids, English, English lessons, Learn English, Teach, English lessons for Polish kids, Poland, Playtime lessons',
+]);
+
+
 ?>
 <div class="site-index">
 
