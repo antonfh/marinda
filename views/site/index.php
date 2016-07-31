@@ -11,7 +11,7 @@ $this->title = 'My Yii Application';
 
         <p class="lead">This is the, new, but still under construction site, for JungoJingle</p>
 
-        <img src="../../web/img/logo/Logo_Vector_Ful_Transparent_JangoJunior.png" class="jumbotron">
+        <img src="/img/logo/Logo_Vector_Ful_Transparent_JangoJunior.png" width="100%" height="200px" class="jumbotron">
 
     </div>
 
