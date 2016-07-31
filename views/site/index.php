@@ -8,7 +8,7 @@ $this->title = 'My Yii Application';
 
     <div class="jumbotron">
         <b class="bold_black">Welcome, to</b> <b class="bold_red">JungoJingle!</b>
-
+        <br />
         <img src="/img/logo/Logo_Vector_Ful_Transparent_JangoJunior.png" width="80%" height="80%" class="jumbotron">
 
     </div>

@@ -1,13 +1,13 @@
 .bold_red {
     font-weight: 700;
     color: red;
-    font-size: larger;
+    font-size: xx-large;
     text-shadow: #999999;
 }
 
 .bold_black {
     font-weight: 700;
     color: #404040;
-    font-size: large;
+    font-size: xx-large;
     text-shadow: #999999;
 }
