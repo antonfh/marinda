@@ -30,7 +30,7 @@ AppAsset::register($this);
         'brandLabel' => 'JungoJingle',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'bold-red navbar-inverse navbar-fixed-top',
         ],
     ]);
     echo Nav::widget([
