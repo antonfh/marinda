@@ -88,11 +88,10 @@ Icon::map($this);
     <div class="container">
         <p class="pull-left">&copy; JungoJingle <?= date('Y') ?></p>
 
-        <p class="pull-right"><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i>
-            <?php echo Icon::show('fa-youtube-square'); ?></p>
+        <p class="pull-right"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></p>
     </div>
 </footer>
-
+<meta name="google-site-verification" content="5mCSN9PgvneoruV26Yu1fRjaY2AwxG7VJeB7G7ght78" />
 <?php $this->endBody() ?>
 </body>
 </html>
