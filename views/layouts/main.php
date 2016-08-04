@@ -93,6 +93,11 @@ Icon::map($this);
                 <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
                 </a>
         </p>
+        <p class="pull-right"><a href="https://plus.google.com/+Jungojingle">
+                <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+                </i>
+            </a>
+        </p>
     </div>
 </footer>
 
