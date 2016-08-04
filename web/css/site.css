@@ -93,6 +93,8 @@ a.desc:after {
 
 #elly {
     display: inline-block;
-    max-width: 20%;
+    max-width: 25%;
     height: auto;
+    max-height: 200%;
+    margin-top: -10px;
 }
