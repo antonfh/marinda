@@ -8,8 +8,11 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use kartik\icons\Icon;
+
 
 AppAsset::register($this);
+Icon::map($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -85,7 +88,7 @@ AppAsset::register($this);
     <div class="container">
         <p class="pull-left">&copy; JungoJingle <?= date('Y') ?></p>
 
-        <p class="pull-right"></p>
+        <p class="pull-right"><?php echo Icon::show('fa-youtube-square'); ?></p>
     </div>
 </footer>
 
