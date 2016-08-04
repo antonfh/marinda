@@ -20,7 +20,7 @@ $this->registerMetaTag([
     <div class="jumbotron">
         <b class="bold_black">Welcome, to</b> <b class="bold_red">JungoJingle!</b>
         <br />
-        <img src="/img/logo/Logo_Vector_Ful_Transparent_JangoJunior.png" width="80%" height="80%" class="jumbotron">
+        <img src="/img/logo/Logo_Jungo.jpg" width="80%" height="80%" class="jumbotron">
 
     </div>
 
@@ -31,7 +31,7 @@ $this->registerMetaTag([
                 <h2>We are online!</h2>
 
                 <p>Having sorted out some technical details, our domain (or actually), domains, are registered and the first draft of the site was created.</p>
-                <br />
+
                 <p>Google started indexing our site at the end of July, 2016. Still under construction, we had to update our About us page to allow for
                 a better indexing with Google</p>
             </div>
@@ -39,8 +39,11 @@ $this->registerMetaTag([
                 <h2>Top of the list.</h2>
 
                 <p>
-                    We are now top of the Google search results (for Jungle Jingle or JungleJingle). We have a lot still to do
-                on the site and hope to have regular updates and a new theme soon
+                    We are now top of the Google search results (for Jungle Jingle or JungleJingle).
+                    </p>
+                <p>
+                    We have a lot still to do
+                to the site and hope to have regular updates and a new theme soon
                 </p>
 
             </div>
@@ -48,8 +51,7 @@ $this->registerMetaTag([
                 <h2>Our logo</h2>
 
                 <p>Our new updated logo to go up soon!</p>
-                <br />
-                <p>We would like to say a special "Thank you!" to Justis Saayman for helping with our Logos.</p>
+                <p>We would like to say a special <b>"Thank you!"</b> to <b>Justis Saayman</b> for helping with our Logos.</p>
 
             </div>
         </div>
