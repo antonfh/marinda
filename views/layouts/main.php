@@ -37,6 +37,7 @@ Icon::map($this);
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="5mCSN9PgvneoruV26Yu1fRjaY2AwxG7VJeB7G7ght78" />
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -91,7 +92,7 @@ Icon::map($this);
         <p class="pull-right"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></p>
     </div>
 </footer>
-<meta name="google-site-verification" content="5mCSN9PgvneoruV26Yu1fRjaY2AwxG7VJeB7G7ght78" />
+
 <?php $this->endBody() ?>
 </body>
 </html>
