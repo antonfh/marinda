@@ -88,7 +88,7 @@ Icon::map($this);
     <div class="container">
         <p class="pull-left">&copy; JungoJingle <?= date('Y') ?></p>
 
-        <p class="pull-right"><i class="fa fa-youtube-square" aria-hidden="true"></i>
+        <p class="pull-right"><i class="fa fa-youtube-square fa-3x" aria-hidden="true"></i>
             <?php echo Icon::show('fa-youtube-square'); ?></p>
     </div>
 </footer>
