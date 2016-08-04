@@ -28,21 +28,28 @@ $this->registerMetaTag([
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>News 1</h2>
+                <h2>We are online!</h2>
 
-                <p>We are still in process of making this site awesome</p>
+                <p>Having sorted out some technical details, our domain (or actually), domains, are registered and the first draft of the site was created.</p>
+                <br />
+                <p>Google started indexing our site at the end of July, 2016. Still under construction, we had to update our About us page to allow for
+                a better indexing with Google</p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Top of the list.</h2>
+
+                <p>
+                    We are now top of the Google search results (for Jungle Jingle or JungleJingle). We have a lot still to do
+                on the site and hope to have regular updates and a new theme soon
+                </p>
 
             </div>
             <div class="col-lg-4">
-                <h2>News 2</h2>
+                <h2>Our logo</h2>
 
-                <p>More news to follow</p>
-
-            </div>
-            <div class="col-lg-4">
-                <h2>Special</h2>
-
-                <p>Some special content to follow once we are done constructing</p>
+                <p>Our new updated logo to go up soon!</p>
+                <br />
+                <p>We would like to say a special "Thank you!" to Justis Saayman for helping with our Logos.</p>
 
             </div>
         </div>
