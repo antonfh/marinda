@@ -54,7 +54,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
     <p>
-        <img src="/img/logo/AnimalWaling.png" width="100%" height="90%">
+        <img src="/img/logo/AnimalWalking.png" width="100%" height="90%">
     </p>
 
 </div>
