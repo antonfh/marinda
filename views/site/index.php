@@ -18,7 +18,7 @@ $this->registerMetaTag([
 <div class="site-index">
 
     <div class="jumbotron">
-        <b class="bold_black">Welcome, to</b> <b class="bold_red">JungoJingle!</b>
+        <b class="bold_black">Welcome, to:
         <br />
         <img src="/img/logo/Logo_Jungo.jpg" width="80%" height="80%" class="jumbotron">
 
