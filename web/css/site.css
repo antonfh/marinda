@@ -92,6 +92,7 @@ a.desc:after {
 
 
 #elly {
-    height: 30px;
-    margin-top: -5px;
+    display: inline-block;
+    max-width: 20%;
+    height: auto;
 }
