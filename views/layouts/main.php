@@ -89,7 +89,10 @@ Icon::map($this);
     <div class="container">
         <p class="pull-left">&copy; JungoJingle <?= date('Y') ?></p>
 
-        <p class="pull-right"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></p>
+        <p class="pull-right"><a href="http://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA">
+                <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
+                </a>
+        </p>
     </div>
 </footer>
 
