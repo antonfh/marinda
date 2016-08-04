@@ -51,7 +51,11 @@ $this->registerMetaTag([
                 <h2>Our logo</h2>
 
                 <p>Our new updated logo to go up soon!</p>
-                <p>We would like to say a special <b>"Thank you!"</b> to <b>Justis Saayman</b> for helping with our Logos.</p>
+                <p>We would like to say a special <b>"Thank you!"</b> to
+                    <br />
+                    <b>Justis Saayman</b>
+                    <br />
+                    for helping with our Logos.</p>
 
             </div>
         </div>
