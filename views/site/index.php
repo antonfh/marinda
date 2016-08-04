@@ -39,7 +39,9 @@ $this->registerMetaTag([
                 <h2>Top of the list.</h2>
 
                 <p>
-                    We are now top of the Google search results (for Jungle Jingle or JungleJingle).
+                    We are now top of the Google search results (for Jungo Jingle or JungoJingle).
+                    Incedently, we are JUNGOJingle not JungleJingle (which returns some Tarzan Jungle Jingles, if you are into
+                    that sort of Jingle).
                     </p>
                 <p>
                     We have a lot still to do
