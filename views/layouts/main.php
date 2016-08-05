@@ -61,7 +61,7 @@ Icon::map($this);
             ['label' => 'What to expect', 'url' => ['/site/expect']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Bookings/Rates/Calendar', 'url' => ['/site/bookings']],
-            ['label' => ' ', 'url' => ['/site/index']],
+
             ['label' => 'Contact', 'url' => ['/site/contact']],
             /*Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
