@@ -58,7 +58,10 @@ Icon::map($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'What to expect', 'url' => ['/site/expect']],
             ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Bookings/Rates/Calendar', 'url' => ['/site/bookings']],
+            ['label' => ' ', 'url' => ['/site/index']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             /*Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
@@ -89,6 +92,11 @@ Icon::map($this);
     <div class="container">
         <p class="pull-left">&copy; JungoJingle <?= date('Y') ?></p>
 
+        <p class="pull-right"><a class="notag"  href="http://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA" target="_blank">
+                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+            </a>
+        </p>
+        <i class="spacer"></i>
         <p class="pull-right"><a class="notag"  href="http://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA" target="_blank">
                 <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
                 </a>

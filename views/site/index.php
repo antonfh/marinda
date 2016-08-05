@@ -2,11 +2,11 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'JungoJingle : Jungle Go to the Jingle of Lingo';
+$this->title = 'JungoJingle : A jungle of jingles and fun learning';
 
 $this->registerMetaTag([
     'name' => 'description',
-    'content' => 'Come and learn with movement and music and fun. Official website for JungoJingle where little ones learn a new language.',
+    'content' => 'JungoJingle is a great fun and interactive arts and music lesson for 2.5 - 5 year olds. Come and learn with movement and music and fun. Official website for JungoJingle where little ones learn a new language.',
 ]);
 $this->registerMetaTag([
     'name' => 'keywords',
@@ -18,14 +18,18 @@ $this->registerMetaTag([
 <div class="site-index">
 
     <div class="jumbotron">
-        <b class="bold_black">Welcome, to:</b>
-        <br />
-        <img src="/img/logo/Logo_Jungo.jpg" width="80%" height="80%" class="jumbotron">
-
+        <img src="/img/logo/Logo_Jungo.jpg" width="80%" height="75%" class="jumbotron">
     </div>
 
     <div class="body-content">
 
+        <div class="row">
+            <div class="col-md-12">
+                JungoJingle is a great fun and interactive arts and music lesson for 2.5 - 5 year olds.
+                The interactive songs will help your child gain confidence and memorise basic English words.
+                Music and rhymes also help build and develop memory nd coordinating skills in a fun way.
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-4">
                 <h2>We are online!</h2>
