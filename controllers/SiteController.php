@@ -122,4 +122,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    public function actionExpect()
+    {
+        return $this->render('expect');
+    }
+
+    public function actionBookings()
+    {
+        return $this->render('bookings');
+    }
 }
