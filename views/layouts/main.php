@@ -97,7 +97,7 @@ Icon::map($this);
             </a>
         </p>
         <i class="spacer"></i>
-        <p class="pull-right"><a class="notag"  href="http://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA" target="_blank">
+        <p class="pull-right"><a class="notag"  href="https://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA" target="_blank">
                 <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
                 </a>
         </p>
