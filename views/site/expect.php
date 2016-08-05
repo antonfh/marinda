@@ -11,6 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <b>Expect LOTS of singing and moving:</b>
+    <br />
 <p>
     JungoJingle is for fun, fun and more fun.  English is introduced through lots of moving and catchy songs.  We'll throw in a music instrument or two, just to really get all the kids involved.  We want the kids to learn through fun.
 </p>
