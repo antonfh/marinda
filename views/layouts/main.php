@@ -29,7 +29,7 @@ Icon::map($this);
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -37,7 +37,7 @@ Icon::map($this);
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta name="google-site-verification" content="5mCSN9PgvneoruV26Yu1fRjaY2AwxG7VJeB7G7ght78" />
+    <meta name="google-site-verification" content="5mCSN9PgvneoruV26Yu1fRjaY2AwxG7VJeB7G7ght78"/>
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -48,7 +48,7 @@ Icon::map($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' =>   '<img id="elly" src="/img/logo/Elly.png"> <b>JungoJingle</b>',
+        'brandLabel' => '<img id="elly" src="/img/logo/Elly.png"> <b>JungoJingle</b>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'bold-red navbar-inverse navbar-fixed-top',
@@ -57,23 +57,33 @@ Icon::map($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'What to expect', 'url' => ['/site/expect']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Bookings/Rates/Calendar', 'url' => ['/site/bookings']],
+            [
+                'label' => Icon::show('home', ['class' => 'fa-lg']),
+                'url' => ['/site/index']
+            ],
+            [
+                'label' => 'What to expect',
+                'url' => ['/site/expect']
+            ],
+            [
+                'label' => 'About',
+                'url' => ['/site/about']
+            ],
             [
                 'label' => 'Services',
                 'items' => [
                     '<li class="dropdown-header">Calendar</li>',
                     ['label' => 'Available times', 'url' => '/site/times'],
-                        '<li class="divider"></li>',
-                        '<li class="dropdown-header">Rates and Bookings</li>',
+                    '<li class="divider"></li>',
+                    '<li class="dropdown-header">Rates and Bookings</li>',
                     ['label' => 'Rates', 'url' => '/site/rates'],
                     ['label' => 'Bookings', 'url' => '/site/bookings'],
                 ],
             ],
-
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            [
+                'label' => 'Contact',
+                'url' => ['/site/contact']
+            ],
             /*Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -103,14 +113,16 @@ Icon::map($this);
     <div class="container">
         <p class="pull-left">&copy; JungoJingle <?= date('Y') ?></p>
 
-        <p class="pull-right"><a class="notag"  href="http://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA" target="_blank">
+        <p class="pull-right"><a class="notag" href="http://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA"
+                                 target="_blank">
                 <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
             </a>
         </p>
         <i class="spacer"></i>
-        <p class="pull-right"><a class="notag"  href="https://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA" target="_blank">
+        <p class="pull-right"><a class="notag" href="https://www.youtube.com/channel/UC0sBuwz-2dVTAQdF076NYOA"
+                                 target="_blank">
                 <i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i>
-                </a>
+            </a>
         </p>
         <i class="spacer"></i>
         <p class="pull-right"><a class="notag" href="https://plus.google.com/+Jungojingle" target="_blank">
@@ -128,10 +140,17 @@ Icon::map($this);
 
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-82059175-1', 'auto');
     ga('send', 'pageview');
