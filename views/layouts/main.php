@@ -58,7 +58,7 @@ Icon::map($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             [
-                'label' => Icon::show('home', ['class' => 'fa-lg']),
+                'label' => '<i class="fa home fa-2x" aria-hidden="true"></i>',
                 'url' => ['/site/index']
             ],
             [
