@@ -63,15 +63,15 @@ Icon::map($this);
                 'url' => ['/site/index']
             ],
             [
-                'label' => 'What to expect',
+                'label' => '<span class="glyphicon glyphicon-eye-open"></span> What we do',
                 'url' => ['/site/expect']
             ],
             [
-                'label' => 'About',
+                'label' => '<span class="glyphicon glyphicon-info-sign"></span> About',
                 'url' => ['/site/about']
             ],
             [
-                'label' => 'Services',
+                'label' => '<span class="glyphicon glyphicon-calendar"></span> Services',
                 'items' => [
                     '<li class="dropdown-header">Calendar</li>',
                     ['label' => 'Available times', 'url' => '/site/times'],
