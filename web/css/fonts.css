@@ -19,8 +19,33 @@ b.navbar_bold_red {
 }
 
 b.navbar_bold_blue {
-    font-weight: 700;
     color: #0e74bc;
-    font-size: xx-large;
-    text-shadow: #999999;
+    outline-color: white;
+    font-weight: 800;
+}
+
+b.navbar_bold_gray {
+    color: #adadad;
+    outline-color: white;
+    font-weight: 800;
+}
+
+.font_fp_bold_red {
+    color: red;
+    font-weight: 600;
+}
+
+.font_fp_bold_blue {
+    color: #0e74bc;
+    font-weight: 600;
+}
+
+.font_fp_bold_gray {
+    color: #6d6e72;
+    font-weight: 600;
+}
+
+.main_heading_font_bold {
+    color: red;
+    font-weight: 700;
 }

@@ -8,9 +8,10 @@ $this->title = 'What we do. What to expect.';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 class="main_heading_font_bold"><?= Html::encode($this->title) ?></h1>
 
     <b>Expect LOTS of singing and moving.</b>
+    <br />
     <br />
 <p>
     JungoJingle is for fun, fun and more fun.  English is introduced through lots of moving and catchy songs.  We'll throw in a music instrument or two, just to really get all the kids involved.  We want the kids to learn through fun.
@@ -25,6 +26,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <b>
     Read and rhyme.
 </b>
+    <br />
+    <br />
     <p>
     We end our session with a book and a rhyme.  Our Goodbye song marks the end of the session.
 </p>

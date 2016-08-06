@@ -30,7 +30,7 @@ $this->registerMetaTag([
 
         <div class="row">
             <div class="col-lg-4">
-                <h2>We are online!</h2>
+                <h2 class="font_fp_bold_red">We are online!</h2>
 
                 <p>Having sorted out some technical details, our domain (or actually), domains, are registered and the
                     first draft of the site was created.</p>
@@ -40,7 +40,7 @@ $this->registerMetaTag([
                     a better indexing with Google</p>
             </div>
             <div class="col-lg-4">
-                <h2>Top of the list.</h2>
+                <h2 class="font_fp_bold_blue">Top of the list.</h2>
 
                 <p>
                     We are now top of the Google search results (for Jungo Jingle or JungoJingle).
@@ -55,7 +55,7 @@ $this->registerMetaTag([
 
             </div>
             <div class="col-lg-4">
-                <h2>Our logo</h2>
+                <h2 class="font_fp_bold_gray">Our logo</h2>
 
                 <p>Our new updated logo to go up soon!</p>
                 <p>We would like to say a special <b>"Thank you!"</b> to

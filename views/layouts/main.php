@@ -47,7 +47,7 @@ Icon::map($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img id="elly" src="/img/logo/Elly.png"> <b class="navbar_bold_red">Jungo</b><b class="navbar_bold_blue"> J</b><b>ingle</b>',
+        'brandLabel' => '<img id="elly" src="/img/logo/Elly.png"> <b class="navbar_bold_red">Jungo</b><b class="navbar_bold_blue"> J</b><b class="navbar_bold_gray">ingle</b>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'bold-red navbar-inverse navbar-fixed-top',

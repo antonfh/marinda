@@ -8,7 +8,7 @@ $this->title = 'About us';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1 class="main_heading_font_bold"><?= Html::encode($this->title) ?></h1>
 
     <h3>We develop kids through music and activity</h3>
 
