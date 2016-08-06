@@ -53,9 +53,9 @@ $config = [
             'rules' => [
             ],
         ],
-        'assetManager' => [
+       /* 'assetManager' => [
             'linkAssets' => true,
-        ],
+        ],*/
 
     ],
     'params' => $params,
