@@ -12,14 +12,14 @@
     text-shadow: #999999;
 }
 
-.navbar_bold_red {
+b.navbar_bold_red {
     font-weight: 700;
     color: red;
     font-size: xx-large;
     text-shadow: #999999;
 }
 
-.navbar_bold_blue {
+b.navbar_bold_blue {
     font-weight: 700;
     color: #0e74bc;
     font-size: xx-large;
