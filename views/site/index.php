@@ -22,7 +22,7 @@ $this->registerMetaTag([
         <p>
             JungoJingle is a great fun and interactive arts and music lesson for 2.5 - 5 year olds.
             The interactive songs will help your child gain confidence and memorise basic English words.
-            Music and rhymes also help build and develop memory nd coordinating skills in a fun way.
+            Music and rhymes also help build and develop memory and coordinating skills in a fun way.
         </p>
     </div>
 
