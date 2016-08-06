@@ -74,11 +74,11 @@ Icon::map($this);
                 'label' => '<span class="glyphicon glyphicon-calendar"></span> Services',
                 'items' => [
                     '<li class="dropdown-header">Calendar</li>',
-                    ['label' => 'Available times', 'url' => '/site/times'],
+                    ['label' => '<span class="glyphicon glyphicon-hourglass"></span> Available times', 'url' => '/site/times'],
                     '<li class="divider"></li>',
                     '<li class="dropdown-header">Rates and Bookings</li>',
-                    ['label' => 'Rates', 'url' => '/site/rates'],
-                    ['label' => 'Bookings', 'url' => '/site/bookings'],
+                    ['label' => '<span class="glyphicon glyphicon-usd"></span> Rates', 'url' => '/site/rates'],
+                    ['label' => '<span class="glyphicon glyphicon-book"></span> Bookings', 'url' => '/site/bookings'],
                 ],
             ],
             [
