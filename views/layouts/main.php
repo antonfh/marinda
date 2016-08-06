@@ -82,7 +82,7 @@ Icon::map($this);
                 ],
             ],
             [
-                'label' => 'Contact',
+                'label' => '<span class="glyphicon glyphicon-envelope"></span> Contact',
                 'url' => ['/site/contact']
             ],
         ],
