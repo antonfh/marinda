@@ -8,7 +8,7 @@ $this->title = 'What we do. What to expect.';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
-    <h1 class="main_heading_font_bold"><?= Html::encode($this->title) ?></h1>
+    <h2 class="main_heading_font_bold"><?= Html::encode($this->title) ?></h2>
 
     <b>Expect LOTS of singing and moving.</b>
     <br />
@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
     Read and rhyme.
 </b>
     <br />
-    <br />
+
     <p>
     We end our session with a book and a rhyme.  Our Goodbye song marks the end of the session.
 </p>

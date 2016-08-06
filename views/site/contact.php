@@ -12,7 +12,7 @@ $this->title = 'Contact';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
-    <h1 class="main_heading_font_bold"><?= Html::encode($this->title) ?></h1>
+    <h2 class="main_heading_font_bold"><?= Html::encode($this->title) ?></h2>
 
     <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
 
