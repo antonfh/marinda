@@ -132,4 +132,14 @@ class SiteController extends Controller
     {
         return $this->render('bookings');
     }
+
+    public function actionTimes()
+    {
+        return $this->render('times');
+    }
+
+    public function actionRates()
+    {
+        return $this->render('rates');
+    }
 }

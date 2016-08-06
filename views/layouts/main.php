@@ -56,6 +56,7 @@ Icon::map($this);
     ]);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
+        'encodeLabels' => false,
         'items' => [
             [
                 'label' => Icon::show('home', ['class' => 'fa-lg']),
