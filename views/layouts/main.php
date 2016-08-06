@@ -61,6 +61,17 @@ Icon::map($this);
             ['label' => 'What to expect', 'url' => ['/site/expect']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Bookings/Rates/Calendar', 'url' => ['/site/bookings']],
+            [
+                'label' => 'Services',
+                'items' => [
+                    '<li class="dropdown-header">Calendar</li>',
+                    ['label' => 'Available times', 'url' => '/site/times'],
+                        '<li class="divider"></li>',
+                        '<li class="dropdown-header">Rates and Bookings</li>',
+                    ['label' => 'Rates', 'url' => '/site/rates'],
+                    ['label' => 'Bookings', 'url' => '/site/bookings'],
+                ],
+            ],
 
             ['label' => 'Contact', 'url' => ['/site/contact']],
             /*Yii::$app->user->isGuest ? (
