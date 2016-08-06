@@ -23,6 +23,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
     More time for learning while having fun.  Some days we will draw and stick and on other days we will play game songs etc.  Game songs are great for learning directions and commands.  There is one thing kids at JungoJingle can be sure of - FUN, FUN FUN.
 </p>
+
+    <br />
+    <br />
     <b>
     Read and rhyme.
 </b>
