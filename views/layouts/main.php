@@ -10,7 +10,6 @@ use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 use kartik\icons\Icon;
 
-
 AppAsset::register($this);
 Icon::map($this);
 ?>

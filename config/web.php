@@ -53,7 +53,10 @@ $config = [
             'rules' => [
             ],
         ],
-        
+        'assetManager' => [
+            'linkAssets' => true,
+        ],
+
     ],
     'params' => $params,
 ];
