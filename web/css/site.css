@@ -122,12 +122,12 @@ img.jumbotron.jbtspace {
 
 
 .navbar-inverse {
-    background-image: url('/img/jungletop.png');
-    background-repeat: repeat-x;
-    background-color: rgba(153, 187, 226, 0.97);
-    color: #0a0a0a;
-    height: 194px;
-    border-color: rgba(8, 8, 8, 0.16);
+    /* background-image: url('/img/jungletop.png'); */
+    /* background-repeat: repeat-x; */
+    background-color: rgba(153, 187, 226, 0.25);
+    /* color: #0a0a0a; */
+    /* height: 194px; */
+    border-color: rgba(8, 8, 8, 0);
 }
 
 .greenbody {
@@ -140,7 +140,7 @@ img.jumbotron.jbtspace {
 }
 
 .container.breadcrumbs {
-    padding-top: 202px;
+    padding-top: 58px;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #464646 !important;
@@ -153,10 +153,10 @@ img.jumbotron.jbtspace {
 }
 
 a.navbar-brand {
-    height: auto;
-    margin-top: 2%;
+    /* height: auto; */
+    /* margin-top: 2%; */
     font-size: xx-large;
-    max-height: 200%;
+    /* max-height: 200%; */
 }
 
 .navbarfont {
