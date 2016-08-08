@@ -41,7 +41,7 @@ Icon::map($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body>
+<body background="/img/greenback.png">
 <?php $this->beginBody() ?>
 
 <div class="wrap">
@@ -89,15 +89,17 @@ Icon::map($this);
     NavBar::end();
     ?>
 
-    <div class="container">
+    <div class="container breadcrumbs">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
+        <div class="greenjungle">
         <?= $content ?>
+            </div>
     </div>
 </div>
 
-<footer class="footer">
+<footer class="footer footerbrown">
     <div class="container">
         <p class="pull-left">&copy; JungoJingle <?= date('Y') ?></p>
 

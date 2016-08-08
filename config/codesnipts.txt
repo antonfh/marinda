@@ -1,0 +1,20 @@
+ADD TO CONTROLLER FOR BOOKINGS
+
+
+public function actionBookings()
+{
+    $model = new app\models\Bookings\Bookings();
+
+    if ($model->load(Yii::$app->request->post())) {
+        if ($model->validate()) {
+            // form inputs are valid, do something here
+            return;
+        }
+    }
+
+    return $this->render('bookings', [
+        'model' => $model,
+    ]);
+}
+
+=====================================================

@@ -68,10 +68,13 @@ if (YII_ENV_DEV) {
         'class' => 'yii\debug\Module',
     ];
 
+    $config['modules']['debug']['allowedIPs'] = ['*'];
+
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
     ];
+    $config['modules']['gii']['allowedIPs'] = ['*'];
 }
 
 return $config;
