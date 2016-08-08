@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use kartik\form\ActiveForm;
 use kartik\select2\Select2;
 use kartik\date\DatePicker;
+use kartik\time\TimePicker;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Bookings\Bookings */
@@ -46,6 +47,8 @@ use kartik\date\DatePicker;
 
         <?php
         //$form->field($model, 'KidsTotal')
+        echo '<label class="control-label">Total kids</label>';
+
             echo Select2::widget([
                 'name' => 'KidsTotal',
                 'data' => [1,2,3,4,5],
@@ -56,8 +59,10 @@ use kartik\date\DatePicker;
                 ],
             ]);
         ?>
+    <br />
         <?php
-        //$form->field($model, 'Date')
+        echo '<label class="control-label">Booking date</label>';
+
             echo '<div class="well well-sm" style="background-color: #fff; width:245px">';
                 echo DatePicker::widget([
                 'name' => 'Date',
@@ -74,11 +79,11 @@ use kartik\date\DatePicker;
                 echo '</div>';
         ?>
 
-        <?= $form->field($model, 'Time') ?>
+        <?php
+
+    echo $form->field($model, 'Time')->widget(TimePicker::classname(), []);
+        ?>
         <?= $form->field($model, 'SpecialNotes') ?>
-        <?= $form->field($model, 'Other') ?>
-        <?= $form->field($model, 'Confirmed') ?>
-        <?= $form->field($model, 'CreatedDate') ?>
     
         <div class="form-group">
             <?= Html::submitButton(Yii::t('app', 'Submit'), ['class' => 'btn btn-primary']) ?>

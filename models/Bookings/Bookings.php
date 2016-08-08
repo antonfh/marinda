@@ -57,7 +57,7 @@ class Bookings extends \yii\db\ActiveRecord
             'Surname' => Yii::t('app', 'Surname'),
             'KidsTotal' => Yii::t('app', 'Kids Total'),
             'Date' => Yii::t('app', 'Date'),
-            'Time' => Yii::t('app', 'Time'),
+            'Time' => Yii::t('app', 'Booking Time'),
             'CreatedDate' => Yii::t('app', 'Created Date'),
             'SpecialNotes' => Yii::t('app', 'Special Notes'),
             'Confirmed' => Yii::t('app', 'Confirmed'),

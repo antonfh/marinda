@@ -41,7 +41,7 @@ Icon::map($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body background="/img/greenback.png">
+<body background="/img/greenback.png" class="greenbody">
 <?php $this->beginBody() ?>
 
 <div class="wrap">
@@ -78,7 +78,7 @@ Icon::map($this);
                     '<li class="divider"></li>',
                     '<li class="dropdown-header">Rates and Bookings</li>',
                     ['label' => '<span class="glyphicon glyphicon-usd"></span> Rates', 'url' => '/site/rates'],
-                    ['label' => '<span class="glyphicon glyphicon-book"></span> Bookings', 'url' => '/site/bookings'],
+                    ['label' => '<span class="glyphicon glyphicon-book"></span> Bookings', 'url' => '/bookings/bookings'],
                 ],
             ],
             [
