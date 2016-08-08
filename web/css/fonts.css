@@ -16,18 +16,24 @@ b.navbar_bold_red {
     color: red;
     outline-color: white;
     font-weight: 800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 b.navbar_bold_blue {
     color: #0e74bc;
     outline-color: white;
     font-weight: 800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 b.navbar_bold_gray {
     color: #181818;
     outline-color: white;
     font-weight: 800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 .font_fp_bold_red {
