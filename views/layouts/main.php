@@ -50,7 +50,7 @@ Icon::map($this);
         'brandLabel' => '<b class="navbar_bold_red">Jungo</b><b class="navbar_bold_blue"> J</b><b class="navbar_bold_gray">ingle</b>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'bold-red navbar-inverse navbar-fixed-top',
+            'class' => 'bold-red navbar navbar-fixed-top',
         ],
     ]);
     echo Nav::widget([
