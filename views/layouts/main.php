@@ -54,15 +54,16 @@ Icon::map($this);
         ],
     ]);
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
+        'options' => ['class' => 'navbar-nav navbar-right navbarfont'],
         'encodeLabels' => false,
         'items' => [
             [
                 'label' => Icon::show('home', ['class' => 'fa-lg']),
-                'url' => ['/site/index']
+                'url' => ['/site/index'],
+                'class' => 'navbarfont'
             ],
             [
-                'label' => '<span class="glyphicon glyphicon-eye-open"></span> What we do',
+                'label' => '<span class="glyphicon glyphicon-eye-open navbarfont"></span> What we do',
                 'url' => ['/site/expect']
             ],
             [
