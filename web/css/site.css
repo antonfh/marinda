@@ -132,6 +132,11 @@ img.jumbotron.jbtspace {
 
 .greenbody {
     background-color: rgba(75, 133, 49, 0.88);
+    background: url(/img/greenback.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .footerbrown {

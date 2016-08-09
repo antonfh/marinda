@@ -41,13 +41,13 @@ Icon::map($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body background="/img/greenback.jpg" class="greenbody">
+<body class="greenbody">
 <?php $this->beginBody() ?>
 
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<b class="navbar_bold_red">Jungo</b><b class="navbar_bold_blue"> J</b><b class="navbar_bold_gray">ingle</b>',
+        'brandLabel' => '<b class="navbar_bold_red">Jungo</b><b class="navbar_bold_blue">J</b><b class="navbar_bold_gray">ingle</b>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'bold-red navbar navbar-fixed-top',
