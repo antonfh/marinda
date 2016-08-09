@@ -63,15 +63,15 @@ Icon::map($this);
                 'class' => 'navbarfont'
             ],
             [
-                'label' => '<span class="glyphicon glyphicon-eye-open navbarfont"></span> What we do',
+                'label' => '<span class="glyphicon glyphicon-eye-open navbarfont"></span> <b>What we do</b>',
                 'url' => ['/site/expect']
             ],
             [
-                'label' => '<span class="glyphicon glyphicon-info-sign"></span> About',
+                'label' => '<span class="glyphicon glyphicon-info-sign"></span> <b>About</b>',
                 'url' => ['/site/about']
             ],
             [
-                'label' => '<span class="glyphicon glyphicon-calendar"></span> Services',
+                'label' => '<span class="glyphicon glyphicon-calendar"></span> <b>Services</b>',
                 'items' => [
                     '<li class="dropdown-header">Calendar</li>',
                     ['label' => '<span class="glyphicon glyphicon-hourglass"></span> Available times', 'url' => '/site/times'],
@@ -82,7 +82,7 @@ Icon::map($this);
                 ],
             ],
             [
-                'label' => '<span class="glyphicon glyphicon-envelope"></span> Contact',
+                'label' => '<span class="glyphicon glyphicon-envelope"></span> <b>Contact</b>',
                 'url' => ['/site/contact']
             ],
         ],
